@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "mybatis-3-mapper.dtd" "mybatis-3-mapper.dtd" >
 <mapper namespace="com.example.mapper.XyfMapper">
-
+    <select id="selectAllDept" resultType="com.example.pojo.Depart">
+        select * from J.DEPART
+    </select>
+    <select id="selectPurchase" resultType="com.example.pojo.TOrderBillMain">
+        select * from J.T_ORDER_BILL_MAIN
+    </select>
 </mapper>

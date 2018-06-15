@@ -1,7 +1,8 @@
 package com.example.mapper;
 
 
-import com.example.entity.TestName;
+
+import com.example.pojo.TestName;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
